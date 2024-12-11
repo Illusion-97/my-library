@@ -11,6 +11,14 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "my-tools": [
+        "./dist/my-tools"
+      ],
+      "tw-stepper": [
+        "./dist/tw-stepper"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
